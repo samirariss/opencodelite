@@ -29,3 +29,8 @@ UPCOMING_CHANGELOG.md
 logs/
 *.bun-build
 tsconfig.tsbuildinfo
+
+
+# MIsc
+whiteboard.md
+
