@@ -304,6 +304,7 @@ export const dict = {
   "mcp.status.connected": "bağlı",
   "mcp.status.failed": "başarısız",
   "mcp.status.needs_auth": "kimlik doğrulama gerekli",
+  "mcp.auth.clickToAuthenticate": "Kimlik doğrulamak için tıklayın",
   "mcp.status.disabled": "devre dışı",
 
   "dialog.fork.empty": "Dallandırılacak mesaj yok",
@@ -452,6 +453,8 @@ export const dict = {
   "error.page.description": "Uygulama yüklenirken bir hata oluştu.",
   "error.page.details.label": "Hata Detayları",
   "error.page.action.restart": "Yeniden Başlat",
+  "error.page.action.report": "Hatayı Bildir",
+  "error.page.action.reported": "Hata Bildirildi",
   "error.page.action.checking": "Kontrol ediliyor...",
   "error.page.action.checkUpdates": "Güncellemeleri kontrol et",
   "error.page.action.updateTo": "{{version}} sürümüne güncelle",
@@ -462,7 +465,7 @@ export const dict = {
   "error.dev.rootNotFound":
     "Kök eleman bulunamadı. index.html dosyanıza eklemeyi unuttunuz mu? Ya da id özelliği yanlış mı yazıldı?",
 
-  "error.globalSync.connectFailed": "Sunucuya bağlanılamadı. `{{url}}` adresinde çalışan bir sunucu var mı?",
+  "error.serverSync.connectFailed": "Sunucuya bağlanılamadı. `{{url}}` adresinde çalışan bir sunucu var mı?",
   "directory.error.invalidUrl": "URL'de geçersiz dizin.",
 
   "error.chain.unknown": "Bilinmeyen hata",
@@ -932,8 +935,8 @@ export const dict = {
   "common.key.insert": "Insert",
   "common.unknown": "bilinmiyor",
   "error.page.circular": "[Döngüsel]",
-  "error.globalSDK.noServerAvailable": "Sunucu yok",
-  "error.globalSDK.serverNotAvailable": "Sunucu mevcut değil",
+  "error.serverSDK.noServerAvailable": "Sunucu yok",
+  "error.serverSDK.serverNotAvailable": "Sunucu mevcut değil",
   "error.childStore.persistedCacheCreateFailed": "Kalıcı önbellek oluşturulamadı",
   "error.childStore.persistedProjectMetadataCreateFailed": "Kalıcı proje meta verileri oluşturulamadı",
   "error.childStore.persistedProjectIconCreateFailed": "Kalıcı proje simgesi oluşturulamadı",
